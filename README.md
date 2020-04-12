@@ -53,7 +53,7 @@ The output result files will be put into this folder.
 
 ## USAGE:
   
-Download all the files firstly, this takes about mins, open TriplexFPP.ipynb, change data path:  
+Download all the files firstly (about 6s), open TriplexFPP.ipynb, change data path:  
 ```
 datapath = '.../...'
 ```
@@ -70,22 +70,22 @@ outputname = '.csv'
 to the output file name, the output file will be at the datapath/output.
 
 * To run triplex lncRNA prediction:
- - use the triplex lncRNA section in TriplexFPP.ipynb
- - change corresponding data path and file names
- - run
+  - use the triplex lncRNA section in TriplexFPP.ipynb
+  - change corresponding data path and file names
+  - run
  
 the default name is the demo, it takes about 40s to run.
 
 * To run triplex DNA site prediction:
- - use the triplex DNA site section in TriplexFPP.ipynb
- - change corresponding data path and file names
- - run
+  - use the triplex DNA site section in TriplexFPP.ipynb
+  - change corresponding data path and file names
+  - run
 the default name is the demo, it takes about 20s to run.
 
 * To run in cis / in trans lncRNA prediction:
- - use the triplex lncRNA section in TriplexFPP.ipynb
- - change corresponding data path and file names
- - run
+  - use the triplex lncRNA section in TriplexFPP.ipynb
+  - change corresponding data path and file names
+  - run
 the default name is the demo, it takes about 20s to run.
 
 More details can be found from [1]
