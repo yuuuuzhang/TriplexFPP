@@ -1,6 +1,7 @@
 # TriplexFPP: A machine learning program for DNA:RNA triplex potential prediction
 TriplexFPP is an integrated program for DNA:RNA triplex prediction. It contains three models, 1) triplex lncRNA prediction model, to predict the most likely triplex forming lncRNA in practical, 2) triplex DNA site prediction model, to predict if a DNA site can form triplex in practical, and 3) in cis / in trans lncRNA prediction model, to predict the interaction position of a triplex lncRNA. It will give researchers usegul guidelines to study the DNA:RNA triplex formation.
-
+![alt text](https://github.com/yuuuuzhang/TriplexFPP/blob/master/overview.png)
+Fig. 1.An overview of the architechture and model parameters for TriplexFPP.
 ## SYSTEM REQUIREMENTS
 
 ### Hardware requirements
