@@ -14,7 +14,8 @@ TriplexFPP has been tested on the following systems:
 
 * macOS (10.14.6)
 * Windows10
- with tensorflow 1 (>=1.13)
+
+ with tensorflow 1 (>=1.12)
 
 #### Python Dependencies
 
@@ -69,22 +70,23 @@ outputname = '.csv'
 to the output file name, the output file will be at the datapath/output.
 
 * To run triplex lncRNA prediction:
-- use the triplex lncRNA section in TriplexFPP.ipynb
-- change corresponding data path and file names
-- run
-the default name is the demo, it takes about mins to run, where the feature extraction can be slow.
+ - use the triplex lncRNA section in TriplexFPP.ipynb
+ - change corresponding data path and file names
+ - run
+ 
+the default name is the demo, it takes about 40s to run.
 
 * To run triplex DNA site prediction:
-- use the triplex DNA site section in TriplexFPP.ipynb
-- change corresponding data path and file names
-- run
-the default name is the demo, it takes about mins to run, where the feature extraction can be slow.
+ - use the triplex DNA site section in TriplexFPP.ipynb
+ - change corresponding data path and file names
+ - run
+the default name is the demo, it takes about 20s to run.
 
 * To run in cis / in trans lncRNA prediction:
-- use the triplex lncRNA section in TriplexFPP.ipynb
-- change corresponding data path and file names
-- run
-the default name is the demo, it takes about mins to run, where the feature extraction can be slow.
+ - use the triplex lncRNA section in TriplexFPP.ipynb
+ - change corresponding data path and file names
+ - run
+the default name is the demo, it takes about 20s to run.
 
 More details can be found from [1]
 
