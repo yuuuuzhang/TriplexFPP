@@ -54,7 +54,7 @@ The output result files will be put into this folder.
 
 ## USAGE:
   
-Download all the files firstly (about 6s), open TriplexFPP.ipynb, change data path:  
+Download the github repositories firstly (about 6s), open TriplexFPP.ipynb in code, change data path:  
 ```
 datapath = '.../...'
 ```
