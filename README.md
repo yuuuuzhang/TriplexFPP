@@ -1,5 +1,5 @@
 # TriplexFPP: A machine learning program for DNA:RNA triplex potential prediction
-TriplexFPP is an integrated program for DNA:RNA triplex prediction. It contains three models, 1) triplex lncRNA prediction model, to predict the most likely triplex forming lncRNA in practical, 2) triplex DNA site prediction model, to predict if a DNA site can form triplex in practical, and 3) in cis / in trans lncRNA prediction model, to predict the interaction position of a triplex lncRNA. It will give researchers usegul guidelines to study the DNA:RNA triplex formation.
+TriplexFPP is an integrated program for DNA:RNA triplex prediction. It contains two models: 1) triplex lncRNA prediction model, to predict the most likely triplex forming lncRNA in practical, and 2) triplex DNA site prediction model, to predict if a DNA site can form triplex in practical. It will give researchers useful guidelines to study the DNA:RNA triplex formation.
 ![alt text](https://github.com/yuuuuzhang/TriplexFPP/blob/master/overview.png)
 Fig. 1.An overview of the architechture and model parameters for TriplexFPP.
 ## SYSTEM REQUIREMENTS
@@ -46,7 +46,7 @@ TriplexFPP.ipynb -- user interface.
 This folder contains the models and files that will be used. The models are from one of the cross-fold validation in three prediction tasks.
 
 ### input_example folder:
-This folder contains example input files. These example files are from one of the cross-fold validation test data for 3 models. The file must be in .fa or .fasta format.
+This folder contains example input files. These example files are from one of the cross-fold validation test data for 2 models. The file must be in .fa or .fasta format.
 
 ### output_files folder:
 The output result files will be put into this folder.
@@ -79,12 +79,6 @@ the default name is the demo, it takes about 40s to run.
 
 * To run triplex DNA site prediction:
   - use the triplex DNA site section in TriplexFPP.ipynb
-  - change corresponding data path and file names
-  - run
-the default name is the demo, it takes about 20s to run.
-
-* To run in cis / in trans lncRNA prediction:
-  - use the triplex lncRNA section in TriplexFPP.ipynb
   - change corresponding data path and file names
   - run
 the default name is the demo, it takes about 20s to run.
