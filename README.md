@@ -86,7 +86,7 @@ the default name is the demo, it takes about 20s to run.
 More details can be found from [1]
 
 ## REFERANCE
-[1] 
+[1] Zhang Y, Long Y, Kwoh CK. Deep learning based DNA: RNA triplex forming potential prediction. BMC bioinformatics. 2020 Dec;21(1):1-3.
 
 ## CONTACT
 If you have any inqueries, please contact YU007@e.ntu.edu.sg
